@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>SignUp</title>
+    </head>
+    <form onsubmit="signup(event)">
+        <label>Name:</label>
+        <br>
+        <input id="name" type="text" name="name" required/>
+        <br>
+        <label>Phone No:</label>
+        <br>
+        <input id="phno" type="number" name="phno" required/>
+        <br>
+        <label>Email:</label>
+        <br>
+        <input id="email" type="email" name="email" required/>
+        <br>
+        <label>Password:</label>
+        <br>
+        <input id="Password" type="password" name="password" required/>
+        <br>
+        <br>
+        <button>SignUp</button>
+    </form>
+    <a href='../login/login.html'>Existing User-Login</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.4.1/axios.min.js"></script>
+    <script src="./signup.js"></script>
+</html>
